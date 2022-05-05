@@ -1,0 +1,223 @@
+{
+    "kids_shoes":[
+        {
+    "image":"https://m.media-amazon.com/images/I/61bK2j7ScmL._AC_SR920,736_.jpg",
+    "company name":"adidas Originals Kids",
+    "title":"Forum Low (Toddler)",
+    "price":"55.00",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71ZzqCepRtL._AC_SR920,736_.jpg",
+    "company name":"Vans Kids",
+    "title":"Classic Slip-On (Little Kid)",
+    "price":"37.00",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/61wz66QWwwL._AC_SR920,736_.jpg",
+    "company name":"Native Shoes Kids",
+    "title":"Jefferson Disney Print (Toddler)",
+    "price":"40.00",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71X8HT-0jAL._AC_SR920,736_.jpg",
+    "company name":"SKECHERS KIDS",
+    "title":"Twinkle Toes - Sparkle Lite 314768N",
+    "price":"46.95",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/81rzGlRUoHL._AC_SR920,736_.jpg",
+    "company name":"Heelys",
+    "title":"Rocket (Little Kid/Big Kid/Adult)",
+    "price":"44.99",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/715DInoyrjL._AC_SR920,736_.jpg",
+    "company name":"adidas Kids",
+    "title":"Lite Racer Adapt 4.0 (Little Kid/Big Kid)",
+    "price":"43.97",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71bPqpT+80L._AC_SR920,736_.jpg",
+    "company name":"Vans Kids",
+    "title":"Slip-On V (Infant/Toddler)",
+    "price":"35.00",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71MDTmRyR1L._AC_SR920,736_.jpg",
+    "company name":"Vans Kids",
+    "title":"Old Skool V (Little Kid)",
+    "price":"45.00",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/719yPtoMFxL._AC_SR920,736_.jpg",
+    "company name":"Vans Kids",
+    "title":"Authentic (Little Kid)",
+    "price":"40.00",
+    "ratting":""
+        }],
+
+        "clothes_boys":[
+            {
+                "image":"https://m.media-amazon.com/images/I/71EmjI4PIRL._AC_SR736,920_.jpg",
+                "company name":"abercrombie kids",
+                "title":"Short Sleeve Play Polo (Little Kids/Big Kids)",
+                "price":"29.95",
+                "ratting":""
+                    },
+                    {
+                "image":"https://m.media-amazon.com/images/I/81LZYAu5WML._AC_SR736,920_.jpg",
+                "company name":"PUMA Golf Kids",
+                "title":"Cloudspun Monarch Polo (Big Kids)",
+                "price":"40.00",
+                "ratting":""
+                    },
+                    {
+                "image":"https://m.media-amazon.com/images/I/81iCrPXDhRL._AC_SR736,920_.jpg",
+                "company name":"abercrombie kids",
+                "title":"Rolled Denim Shorts (Little Kids/Big Kids)",
+                "price":"34.95",
+                "ratting":""
+                    },
+                    {
+                        "image":"https://m.media-amazon.com/images/I/61ppQbepH8L._AC_SR736,920_.jpg",
+                        "company name":"Joe's Jeans Kids",
+                        "title":"Shibori Dye Jogger Shorts (Big Kids)",
+                        "price":"35.00",
+                        "ratting":""
+                    },
+                    {
+                        "image":"https://m.media-amazon.com/images/I/61htDJDcgcL._AC_SR736,920_.jpg",
+                        "company name":"Appaman Kids",
+                        "title":"Sup Tee (Toddler/Little Kids/Big Kids)",
+                        "price":"33.00",
+                        "ratting":""
+                            },
+                            {
+                        "image":"https://m.media-amazon.com/images/I/61gAJSHZAcL._AC_SR736,920_.jpg",
+                        "company name":"Appaman Kids",
+                        "title":"Ziggy Marley Hawaii Graphic Short Sleeve (Toddler/Little Kids/Big Kids)",
+                        "price":"29.00",
+                        "ratting":""
+                            },
+                            {
+                        "image":"https://m.media-amazon.com/images/I/71glKribCNL._AC_SR736,920_.jpg",
+                        "company name":"Appaman Kids",
+                        "title":"Ziggy Marley Lion Face Graphic Short Sleeve (Toddler/Little Kids/Big Kids)",
+                        "price":"29.00",
+                        "ratting":""
+                            },
+                            {
+                        "image":"https://m.media-amazon.com/images/I/61rDPkiIM0L._AC_SR736,920_.jpg",
+                        "company name":"Appaman Kids",
+                        "title":"Sunrise Shazam Short Sleeve Tee (Toddler/Little Kids/Big Kids)",
+                        "price":"33.00",
+                        "ratting":""
+                            },
+                            {
+                        "image":"https://m.media-amazon.com/images/I/71qGk5xz+GL._AC_SR736,920_.jpg",
+                        "company name":"Appaman Kids",
+                        "title":"Sea Monster Short Sleeve Tee (Toddler/Little Kids/Big Kids)",
+                        "price":"33.00",
+                        "ratting":""
+                            }
+        ],
+
+     
+        "ladies_wear":[
+        {
+    "image":"https://m.media-amazon.com/images/I/91LqkGDmj8L._AC_SR736,920_.jpg",
+    "company name":"Tommy Hilfiger Kids",
+    "title":"Surf Palm Dress (Big Kids)",
+    "price":"42.50",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/81TGTeoNIoL._AC_SR736,920_.jpg",
+    "company name":"Tommy Hilfiger Kids",
+    "title":"Tommy Plaid Dress (Big Kids)",
+    "price":"26.99",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/91VEkG8oiCL._AC_SR736,920_.jpg",
+    "company name":"Tommy Hilfiger",
+    "title":"Girls Adaptive Stripe Dress with Wide",
+    "price":"49.50",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71RxYO1uuFL._AC_SR736,920_.jpg",
+    "company name":"Calvin Klein",
+    "title":"Girls' Tank Dress",
+    "price":"32.99",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71-q0GlPyZL._AC_SR736,920_.jpg",
+    "company name":"#4kids",
+    "title":"Essential Smocked Top Dress (Little Kids/Big Kids)",
+    "price":"16.08",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71RFHVl8fZL._AC_SR736,920_.jpg",
+    "company name":"#4kids",
+    "title":"Essential Ruffle Cap Sleeve Tank Top (Little Kids/Big Kids)",
+    "price":"13.71",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/91kB-uDC5XL._AC_SR736,920_.jpg",
+    "company name":"abercrombie kids",
+    "title":"Wrap Skort Dress (Little Kids/Big Kids)",
+    "price":"34.95",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/81hQZuXb9qL._AC_SR736,920_.jpg",
+    "company name":"abercrombie kids",
+    "title":"Fit-and-Flare Sweaterdress (Little Kids/Big Kids)",
+    "price":"44.95",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71jEzfEAa9L._AC_SR736,920_.jpg",
+    "company name":"Janie and Jack",
+    "title":"Velour Dress (Big Kids)",
+    "price":"67.99",
+    "ratting":""
+        }],
+
+        "jackets":[
+        {
+    "image":"https://m.media-amazon.com/images/I/61TMj4yyYCL._AC_SR736,920_.jpg",
+    "company name":"Columbia Kids",
+    "title":"Benton Springs™ II Printed Fleece (Infant)",
+    "price":"24.99",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/71lMhKVblnL._AC_SR736,920_.jpg",
+    "company name":"reima",
+    "title":"Softshell Jacket Vantti (Infant/Toddler/Little Kids/Big Kids)",
+    "price":"60.00",
+    "ratting":""
+        },
+        {
+    "image":"https://m.media-amazon.com/images/I/61Gv6jnz3BL._AC_SR736,920_.jpg",
+    "company name":"Helly Hansen Kids",
+    "title":"Champ Reversible Jacket (Big Kids)",
+    "price":"61.57",
+    "ratting":""
+        }
+        
+    ]
+}

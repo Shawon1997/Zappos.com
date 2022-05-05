@@ -1,0 +1,48 @@
+.font-image{background-image: url("https://m.media-amazon.com/images/G/01/2022/womens/WOMENS-DRESSES-SKIRTS-MAY-HERO-1440x700.jpg");
+    width: 100%;height: 700px;
+    background-repeat: no-repeat;
+}
+.font-div{width: 340px;margin-left: 4%;
+margin-bottom: 10%;padding: 1%;
+background-color:white;
+/*font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: normal;
+    font-family: "Open Sans", sans-serif;*/
+}
+.blank-div{height: 30%;}
+.font-button{border: 2px solid;width: 60%;
+    margin: auto;border-radius: 6px;
+    /*font-size: large;*/
+}
+.font-button:hover{background-color: black;color: white;}
+/*.Dresses{font-family: "Open Sans", sans-serif;}*/
+.container{margin-left: 2.5%;}
+.shop{margin-right: 85%;}
+.middle_div{display: flex;margin-left:5% ;gap: 2%;}
+.middle_img1{width: 44%;background-color: yellow;}
+.middle_img1>img{width: 100%;height: 100%;}
+.middle_img2{margin-top: 20%;}
+.middle_img2p>p{font-size: large}
+.middle_img2p{width: 80%;margin: auto;margin-top: 10%;}
+.middle_button{border: 2px solid;width: 60%;
+    margin: auto;border-radius: 6px;height: 40px;
+margin-top: 12%;
+}
+.middle_button>p{margin-top: 5px;font-size: large;}
+.middle_button:hover{background-color: black;color: aliceblue;}
+.get{display: flex;margin-top: 3%;}
+.get_box1{width: 30%;height: 200px;margin-top: 10%;}
+.get_box2{width: 70%;height: auto;}
+.get_box1>div>p{font-size: large;}
+.shop_button{width: 60%;margin: auto;}
+.shop_buttonp{margin-top: 3%;font-size: 17px;}
+.bottom_image{display: flex;gap: 2%;margin-left: 2.5%;margin-top: 3%;height: 580px;}
+.bottom_image>div{width: 30%;}
+.bottom_image>div>img{width: 100%;height: 80%;}
