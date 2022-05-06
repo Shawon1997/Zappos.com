@@ -1,6 +1,46 @@
 import "./Home.css"
 import { Button } from "./Button"
+import { useEffect,useState } from "react"
 export const Home=()=>{
+    const [show,setshow]=useState([])
+    const [shoes,setshoes]=useState([])
+    const [women,setwomen]=useState([])
+const getdata=async()=>{
+    try {
+        let res=await fetch("http://localhost:8080/shop_popular")
+        let data=await res.json()
+        setshow(data)
+    } catch (err) {
+        console.log(err)
+    }
+}
+useEffect(() => {
+    getdata()
+}, []);
+const getwomen=async()=>{
+    try {
+        let res=await fetch("http://localhost:8080/women_shoes")
+        let data=await res.json()
+        setwomen(data)
+    } catch (err) {
+        console.log(err)
+    }
+}
+useEffect(() => {
+    getwomen()
+}, []);
+const getswhoes=async()=>{
+    try {
+        let res=await fetch("http://localhost:8080/kids_shoes")
+        let data=await res.json()
+        setshoes(data)
+    } catch (err) {
+        console.log(err)
+    }
+}
+useEffect(() => {
+    getswhoes()
+}, []);
     return (<div className='container'>
     
         <div className="font-image">
@@ -12,6 +52,40 @@ export const Home=()=>{
          </div>
         </div>
          <div className="shop"><h3>Shop Popular Categories</h3></div>
+         <div className="shop_dress">{show.map((e)=>(
+             <><div className="shop_dress_box">
+                 <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
+                <br></br>
+                 <div>{e.title}</div>                
+             </div>
+             </>
+         ))}</div>
+         <div className="fassion_div">
+            <div>
+                <div><img src="https://m.media-amazon.com/images/G/01/2022/homepage5.02/BROADCAST-SHOES-FASHION-SANDALS-MAY-TRIPTYCH-500X500.jpg"></img></div>
+                <div>
+                    <h2>Fashion Sandals + Dopamine Dressing</h2>
+                    <p>Rev up your look with playful hues, fun block, and ruching details!</p>
+                    <h3 style={{color:"grey"}}>SHOP WOMEN'S FASHION SANDALS</h3>
+                </div>
+            </div>
+            <div>
+                <div><img src="https://m.media-amazon.com/images/G/01/2022/homepage5.02/BROADCAST-CLOTHING-TOTES-SHE-WILL-LOVE-MAY-TRIPTYCH-500X500.jpg"></img></div>
+                <div>
+                <h2>Giftable Totes from Top Brands</h2>
+                    <p>Find styles she’ll love from Tory Burch, COACH, Marc Jacobs and more!</p>
+                    <h3 style={{color:"grey"}}>SHOP TOTES FOR HER</h3>
+                </div>
+            </div>
+            <div>
+                <div><img src="https://m.media-amazon.com/images/G/01/2022/homepage5.02/BROADCAST-CLOGS-MULES-MAY-TRIPTYCH-500X500.jpg"></img></div>
+                <div>
+                <h2>Clogs &amp; Mules: Made for Everyday Style</h2>
+                    <p>Discover wear-all-day faves from Madewell, Sam Edelman, and more!</p>
+                    <h3 style={{color:"grey"}}>SHOP WOMEN'S CLOGS &amp; MULES</h3>
+                </div>
+            </div>
+         </div>
         <div className="middle_div">
             <div className="middle_img1">
            <div className="middle_img2"><img src="https://m.media-amazon.com/images/G/01/2021/homepage11.01/COOP-NEW-ARRIVAL-LOGO-1X_3.svg"></img></div>
@@ -34,7 +108,22 @@ export const Home=()=>{
                 <img src="https://m.media-amazon.com/images/G/01/2022/homepage5.02/OUTDOOR-GROUP-AOE-960x500.jpg"></img>
             </div>
         </div>
-        <div><h3>Popular Items</h3></div>
+        <div className="popular"><h3>Popular Items</h3></div>
+         <div className="shop_dress">{women.map((e)=>(
+             <><div className="shop_dress_box">
+                 <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
+                <br></br>
+            
+
+                 <div className="popular_text">
+                 <div>{e.company_name}</div>                
+                 <div>{e.title}</div>                
+                 <div style={{color:"red"}}>{e.price}</div> 
+                 </div>               
+             </div>
+             </>
+         ))}</div>
+         <br></br>
         <div className="get">
             <div className="get_box2">
                 <img src="https://m.media-amazon.com/images/G/01/2022/the-style-room/FASHION-THE-STYLE-ROOM-COACH-MAY-960x500.jpg"></img>
@@ -45,6 +134,30 @@ export const Home=()=>{
                 <div><p>Featuring the Pillow Tabby handbag and Kellie sandal in the super puffy trend everyone is loving for 2022!</p></div>
                 <div className="shop_button"><Button><h5 className="shop_buttonp">Shop COACH</h5></Button></div>
             </div>
+        </div>
+        <div className="dansko">
+           <div>
+               <div>Dansko: On_trend Comfort for works & Beyond</div>
+             
+               <div className="dansko_button"><Button>SHOP DANSKO</Button></div>
+               <div className="dansko_image"><img src="https://m.media-amazon.com/images/G/01/2022/homepage5.02/LT_Pro_hero_500x740.jpg"></img></div>
+           </div>
+           <div>
+           <div className="shop_dress">{women.map((e)=>(
+             <><div className="shop_dress_box">
+                 <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
+                <br></br>
+            
+
+                 <div className="popular_text">
+                 <div>{e.company_name}</div>                
+                 <div>{e.title}</div>                
+                 <div style={{color:"red"}}>${e.price}</div> 
+                 </div>               
+             </div>
+             </>
+         ))}</div>
+           </div>
         </div>
         <div>
             <img src="https://m.media-amazon.com/images/G/01/zopus2020v/ZAfterpay/Afterpay_Banner_CTA_1440x250.jpg"></img>
