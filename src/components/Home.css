@@ -57,11 +57,20 @@ margin-top: 12%;
  .fassion_div>div>div>img{width: 100%;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px} 
  .popular{margin-right: 92%;width: 10%;margin-top: 4%;}  
  .popular_text{text-align: left;}
- .dansko{display: flex;margin-top: 4%;height: 500px;margin-bottom: 5%;}
- .dansko_image{margin-top: 4%;border: 1px solid;height: 450px;}
- .dansko_image>img{width: 100%; border: 1px solid;height: 100%;}
- .dansko_button{width: 40%;margin-top: 4%;}
- .dansko_button>Button{margin-top: 40%;}
+ .dansko{display: flex;margin-top: 4%;height: 500px;margin-bottom: 15%;margin-left: 4%;}
+ .dansko_image{margin-top: 4%;height: 550px;margin-left: 2%;}
+ .dansko_image>img{width: 100%; height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+ .dansko_button{width: 50%;margin-top: 4%;}
+ /*.dansko_button>Button{margin-top: 40%;}*/
+ .populer_product{display: grid;grid-template-columns: repeat(4,1fr);grid-gap: 3%;
+margin-left: 8%;margin-bottom: 4%;
+}
+.dansko>div{width: 32%;}
+.trending{margin-left: 2%;width: 200px;}
+.dansko_text{font-size: large;font-weight: bold;margin-left: -15%;}
+.shop_button{margin-top: 5px;}
 /*.shop_dress>div>div{border: 1px solid;}*/
 
 /*.shop_dress_box{height: 250px;width: 200px;}*/

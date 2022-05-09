@@ -1,10 +1,15 @@
 import "./Home.css"
 import { Button } from "./Button"
 import { useEffect,useState } from "react"
+import {Footer} from "./footer"
+import { useNavigate } from "react-router-dom"
+//import {Link} from "react-router-dom"
 export const Home=()=>{
+    const navigate=useNavigate()
     const [show,setshow]=useState([])
     const [shoes,setshoes]=useState([])
     const [women,setwomen]=useState([])
+    const [brand,setbrand]=useState([])
 const getdata=async()=>{
     try {
         let res=await fetch("http://localhost:8080/shop_popular")
@@ -19,7 +24,7 @@ useEffect(() => {
 }, []);
 const getwomen=async()=>{
     try {
-        let res=await fetch("http://localhost:8080/women_shoes")
+        let res=await fetch("http://localhost:8080/populer_product")
         let data=await res.json()
         setwomen(data)
     } catch (err) {
@@ -31,7 +36,7 @@ useEffect(() => {
 }, []);
 const getswhoes=async()=>{
     try {
-        let res=await fetch("http://localhost:8080/kids_shoes")
+        let res=await fetch("http://localhost:8080/ladies_wear")
         let data=await res.json()
         setshoes(data)
     } catch (err) {
@@ -40,6 +45,18 @@ const getswhoes=async()=>{
 }
 useEffect(() => {
     getswhoes()
+}, []);
+const getbrand=async()=>{
+    try {
+        let res=await fetch("http://localhost:8080/popular_brands")
+        let data=await res.json()
+        setbrand(data)
+    } catch (err) {
+        console.log(err)
+    }
+}
+useEffect(() => {
+    getbrand()
 }, []);
     return (<div className='container'>
     
@@ -54,7 +71,9 @@ useEffect(() => {
          <div className="shop"><h3>Shop Popular Categories</h3></div>
          <div className="shop_dress">{show.map((e)=>(
              <><div className="shop_dress_box">
-                 <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
+                 <div className="shop_dress_imagebox" onClick={()=>{
+                     navigate("/product")
+                 }}><div><img src={e.image} /></div></div>
                 <br></br>
                  <div>{e.title}</div>                
              </div>
@@ -109,7 +128,8 @@ useEffect(() => {
             </div>
         </div>
         <div className="popular"><h3>Popular Items</h3></div>
-         <div className="shop_dress">{women.map((e)=>(
+        
+         <div className="shop_dress">{shoes.map((e)=>(
              <><div className="shop_dress_box">
                  <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
                 <br></br>
@@ -118,11 +138,12 @@ useEffect(() => {
                  <div className="popular_text">
                  <div>{e.company_name}</div>                
                  <div>{e.title}</div>                
-                 <div style={{color:"red"}}>{e.price}</div> 
+                 <div style={{color:"red"}}>${e.price}</div> 
                  </div>               
              </div>
              </>
          ))}</div>
+        
          <br></br>
         <div className="get">
             <div className="get_box2">
@@ -135,15 +156,25 @@ useEffect(() => {
                 <div className="shop_button"><Button><h5 className="shop_buttonp">Shop COACH</h5></Button></div>
             </div>
         </div>
+        <div className="trending"><h2>Trending Brands</h2></div>
+        <br></br>
+        <div className="shop_dress">{brand.map((e)=>(
+             <><div className="shop_dress_box">
+                 <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
+                <br></br>
+                 <div>{e.title}</div>                
+             </div>
+             </>
+         ))}</div>
         <div className="dansko">
            <div>
-               <div>Dansko: On_trend Comfort for works & Beyond</div>
+               <div className="dansko_text">Dansko: On_trend Comfort for works & Beyond</div>
              
-               <div className="dansko_button"><Button>SHOP DANSKO</Button></div>
+               <div className="dansko_button"><Button><p className="shop_button">SHOP DANSKO</p></Button></div>
                <div className="dansko_image"><img src="https://m.media-amazon.com/images/G/01/2022/homepage5.02/LT_Pro_hero_500x740.jpg"></img></div>
            </div>
            <div>
-           <div className="shop_dress">{women.map((e)=>(
+           <div className="populer_product">{women.map((e)=>(
              <><div className="shop_dress_box">
                  <div className="shop_dress_imagebox"><div><img src={e.image} /></div></div>
                 <br></br>
@@ -152,7 +183,7 @@ useEffect(() => {
                  <div className="popular_text">
                  <div>{e.company_name}</div>                
                  <div>{e.title}</div>                
-                 <div style={{color:"red"}}>${e.price}</div> 
+                 <div style={{color:"green"}}>${e.price}</div> 
                  </div>               
              </div>
              </>
@@ -183,5 +214,7 @@ useEffect(() => {
             <h4 style={{marginTop:"4px"}}>Shop Goods for Good</h4>
             </div></div>
         </div>
+        <br></br>
+        <Footer />
     </div>)
 }

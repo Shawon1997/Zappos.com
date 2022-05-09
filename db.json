@@ -1,6 +1,7 @@
 {
     "kids_shoes":[
         {
+            "id":1,
     "image":"https://m.media-amazon.com/images/I/61bK2j7ScmL._AC_SR920,736_.jpg",
     "company_name":"adidas Originals Kids",
     "title":"Forum Low (Toddler)",
@@ -8,6 +9,7 @@
     "ratting":""
         },
         {
+            "id":2,
     "image":"https://m.media-amazon.com/images/I/71ZzqCepRtL._AC_SR920,736_.jpg",
     "company_name":"Vans Kids",
     "title":"Classic Slip-On (Little Kid)",
@@ -15,6 +17,7 @@
     "ratting":""
         },
         {
+            "id":3,
     "image":"https://m.media-amazon.com/images/I/61wz66QWwwL._AC_SR920,736_.jpg",
     "company_name":"Native Shoes Kids",
     "title":"Jefferson Disney Print (Toddler)",
@@ -22,6 +25,7 @@
     "ratting":""
         },
         {
+            "id":4,
     "image":"https://m.media-amazon.com/images/I/71X8HT-0jAL._AC_SR920,736_.jpg",
     "company_name":"SKECHERS KIDS",
     "title":"Twinkle Toes - Sparkle Lite 314768N",
@@ -29,6 +33,7 @@
     "ratting":""
         },
         {
+            "id":5,
     "image":"https://m.media-amazon.com/images/I/81rzGlRUoHL._AC_SR920,736_.jpg",
     "company_name":"Heelys",
     "title":"Rocket (Little Kid/Big Kid/Adult)",
@@ -36,6 +41,7 @@
     "ratting":""
         },
         {
+            "id":6,
     "image":"https://m.media-amazon.com/images/I/715DInoyrjL._AC_SR920,736_.jpg",
     "company_name":"adidas Kids",
     "title":"Lite Racer Adapt 4.0 (Little Kid/Big Kid)",
@@ -45,6 +51,7 @@
 
         "clothes_boys":[
             {
+                "id":1,
                 "image":"https://m.media-amazon.com/images/I/71EmjI4PIRL._AC_SR736,920_.jpg",
                 "company name":"abercrombie kids",
                 "title":"Short Sleeve Play Polo (Little Kids/Big Kids)",
@@ -52,6 +59,7 @@
                 "ratting":""
                     },
                     {
+                        "id":2,
                 "image":"https://m.media-amazon.com/images/I/81LZYAu5WML._AC_SR736,920_.jpg",
                 "company name":"PUMA Golf Kids",
                 "title":"Cloudspun Monarch Polo (Big Kids)",
@@ -59,6 +67,7 @@
                 "ratting":""
                     },
                     {
+                        "id":3,
                 "image":"https://m.media-amazon.com/images/I/81iCrPXDhRL._AC_SR736,920_.jpg",
                 "company name":"abercrombie kids",
                 "title":"Rolled Denim Shorts (Little Kids/Big Kids)",
@@ -66,6 +75,7 @@
                 "ratting":""
                     },
                     {
+                        "id":4,
                         "image":"https://m.media-amazon.com/images/I/61ppQbepH8L._AC_SR736,920_.jpg",
                         "company name":"Joe's Jeans Kids",
                         "title":"Shibori Dye Jogger Shorts (Big Kids)",
@@ -73,6 +83,7 @@
                         "ratting":""
                     },
                     {
+                        "id":5,
                         "image":"https://m.media-amazon.com/images/I/61htDJDcgcL._AC_SR736,920_.jpg",
                         "company name":"Appaman Kids",
                         "title":"Sup Tee (Toddler/Little Kids/Big Kids)",
@@ -80,6 +91,7 @@
                         "ratting":""
                             },
                             {
+                                "id":6,
                         "image":"https://m.media-amazon.com/images/I/61gAJSHZAcL._AC_SR736,920_.jpg",
                         "company name":"Appaman Kids",
                         "title":"Ziggy Marley Hawaii Graphic Short Sleeve (Toddler/Little Kids/Big Kids)",
@@ -87,6 +99,7 @@
                         "ratting":""
                             },
                             {
+                                "id":7,
                         "image":"https://m.media-amazon.com/images/I/71glKribCNL._AC_SR736,920_.jpg",
                         "company name":"Appaman Kids",
                         "title":"Ziggy Marley Lion Face Graphic Short Sleeve (Toddler/Little Kids/Big Kids)",
@@ -94,6 +107,7 @@
                         "ratting":""
                             },
                             {
+                                "id":8,
                         "image":"https://m.media-amazon.com/images/I/61rDPkiIM0L._AC_SR736,920_.jpg",
                         "company name":"Appaman Kids",
                         "title":"Sunrise Shazam Short Sleeve Tee (Toddler/Little Kids/Big Kids)",
@@ -101,6 +115,7 @@
                         "ratting":""
                             },
                             {
+                                "id":9,
                         "image":"https://m.media-amazon.com/images/I/71qGk5xz+GL._AC_SR736,920_.jpg",
                         "company name":"Appaman Kids",
                         "title":"Sea Monster Short Sleeve Tee (Toddler/Little Kids/Big Kids)",
@@ -111,7 +126,38 @@
 
      
         "ladies_wear":[
+            {
+                "id":1,
+                "image":"https://m.media-amazon.com/images/I/71Ucp9CqD7L._AC_SX255_.jpg",
+                "company_name":"Brooks",
+                "title":"Adrenaline GTS 22",
+                "price":"135"
+            }
+            ,
+            {
+                "id":2,
+                "image":"https://m.media-amazon.com/images/I/813Kd+JC9xL._AC_SX255_.jpg",
+                "company_name":"Brooks",
+                "title":"Glycerin 19",
+                "price":"149.95"
+            },
+            {
+                "id":3,
+                "image":"https://m.media-amazon.com/images/I/81bk4oAhS3L._AC_SX255_.jpg",
+                "company_name":"Brooks",
+                "title":"Launch 8",
+                "price":"89.95"
+            }
+            ,
+            {
+                "id":4,
+                "image":"https://m.media-amazon.com/images/I/71hxeunMbdL._AC_SX255_.jpg",
+                "company_name":"Brooks",
+                "title":"Addiction Walker Suede",
+                "price":"139.95"
+            },
         {
+            "id":5,
     "image":"https://m.media-amazon.com/images/I/91LqkGDmj8L._AC_SR736,920_.jpg",
     "company name":"Tommy Hilfiger Kids",
     "title":"Surf Palm Dress (Big Kids)",
@@ -119,78 +165,19 @@
     "ratting":""
         },
         {
+            "id":6,
     "image":"https://m.media-amazon.com/images/I/81TGTeoNIoL._AC_SR736,920_.jpg",
     "company name":"Tommy Hilfiger Kids",
     "title":"Tommy Plaid Dress (Big Kids)",
     "price":"26.99",
     "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/91VEkG8oiCL._AC_SR736,920_.jpg",
-    "company name":"Tommy Hilfiger",
-    "title":"Girls Adaptive Stripe Dress with Wide",
-    "price":"49.50",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/71RxYO1uuFL._AC_SR736,920_.jpg",
-    "company name":"Calvin Klein",
-    "title":"Girls' Tank Dress",
-    "price":"32.99",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/71-q0GlPyZL._AC_SR736,920_.jpg",
-    "company name":"#4kids",
-    "title":"Essential Smocked Top Dress (Little Kids/Big Kids)",
-    "price":"16.08",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/71RFHVl8fZL._AC_SR736,920_.jpg",
-    "company name":"#4kids",
-    "title":"Essential Ruffle Cap Sleeve Tank Top (Little Kids/Big Kids)",
-    "price":"13.71",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/91kB-uDC5XL._AC_SR736,920_.jpg",
-    "company name":"abercrombie kids",
-    "title":"Wrap Skort Dress (Little Kids/Big Kids)",
-    "price":"34.95",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/81hQZuXb9qL._AC_SR736,920_.jpg",
-    "company name":"abercrombie kids",
-    "title":"Fit-and-Flare Sweaterdress (Little Kids/Big Kids)",
-    "price":"44.95",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/71jEzfEAa9L._AC_SR736,920_.jpg",
-    "company name":"Janie and Jack",
-    "title":"Velour Dress (Big Kids)",
-    "price":"67.99",
-    "ratting":""
-        }],
+        }
+    ],
 
         "jackets":[
+       
         {
-    "image":"https://m.media-amazon.com/images/I/61TMj4yyYCL._AC_SR736,920_.jpg",
-    "company name":"Columbia Kids",
-    "title":"Benton Springs™ II Printed Fleece (Infant)",
-    "price":"24.99",
-    "ratting":""
-        },
-        {
-    "image":"https://m.media-amazon.com/images/I/71lMhKVblnL._AC_SR736,920_.jpg",
-    "company name":"reima",
-    "title":"Softshell Jacket Vantti (Infant/Toddler/Little Kids/Big Kids)",
-    "price":"60.00",
-    "ratting":""
-        },
-        {
+            "id":1,
     "image":"https://m.media-amazon.com/images/I/61Gv6jnz3BL._AC_SR736,920_.jpg",
     "company name":"Helly Hansen Kids",
     "title":"Champ Reversible Jacket (Big Kids)",
@@ -202,116 +189,132 @@
     "shop_popular":
     [
         {
+            "id":1,
             "image":"https://m.media-amazon.com/images/I/614vcxz1sCL._AC_SX255_.jpg",
             "title":"Sneakers & Athletic Shoes"
         },
         {
+            "id":2,
             "image":"https://m.media-amazon.com/images/I/61lDBv3S0oL._AC_SX255_.jpg",
             "title":"Flat Sandels"
         },
         {
+            "id":3,
             "image":"https://m.media-amazon.com/images/I/71u0qDadJEL._AC_SX255_.jpg",
             "title":"Dresses"
         },
         {
+            "id":4,
             "image":"https://m.media-amazon.com/images/I/71Sv8FHil+L._AC_SX255_.jpg",
             "title":"heeled Sandals"
         },
         {
+            "id":5,
             "image":"https://m.media-amazon.com/images/I/81flGLWN9YL._AC_SX255_.jpg",
             "title":"Swimwear"
         },
         {
+            "id":6,
             "image":"https://m.media-amazon.com/images/I/71gYrY5KThL._AC_SX255_.jpg",
             "title":"clogs"
         }
     ],
-    "women_shoes" : [
+    "populer_product":[
         {
-            "image_url": "https://m.media-amazon.com/images/I/719j007XxXS._AC_SR920,736_.jpg",
-           
-            "company":"Brooks",
-            "name": "Ghost 14",
-            "price": "$139.",
-             "Rating": ""​
+            "id":1,
+            "image":"https://m.media-amazon.com/images/I/71Ucp9CqD7L._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Adrenaline GTS 22",
+            "price":"135"
+        }
+        ,
+        {
+            "id":2,
+            "image":"https://m.media-amazon.com/images/I/813Kd+JC9xL._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Glycerin 19",
+            "price":"149.95"
+        }
+        ,
+        {
+            "id":3,
+            "image":"https://m.media-amazon.com/images/I/8186uCaQKRL._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Adrenaline GTS 21",
+            "price":"109.95"
+        }
+        ,
+        {
+            "id":4,
+            "image":"https://m.media-amazon.com/images/I/71JPTX4r46L._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Revel 5",
+            "price":"99.95"
+        }
+        ,
+        {
+            "id":5,
+            "image":"https://m.media-amazon.com/images/I/81bk4oAhS3L._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Launch 8",
+            "price":"89.95"
+        }
+        ,
+        {
+            "id":6,
+            "image":"https://m.media-amazon.com/images/I/71hxeunMbdL._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Addiction Walker Suede",
+            "price":"139.95"
+        }
+        ,
+        {
+            "id":7,
+            "image":"https://m.media-amazon.com/images/I/81fUTTCkoYL._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Trace",
+            "price":"99.95"
+        }
+        ,
+        {
+            "id":8,
+            "image":"https://m.media-amazon.com/images/I/816eILqoXiL._AC_SX255_.jpg",
+            "company_name":"Brooks",
+            "title":"Cascadia 16",
+            "price":"129.95"
+        }
+    ],
+    "popular_brands":
+    [
+        {
+            "id":1,
+            "image":"https://www.zappos.com/boutiques/449/Nike_Header081617.jpg",
+            "title":"Nike"
         },
         {
-            "image_url": "https://m.media-amazon.com/images/I/71evwYCQF-L.AC_SS144.jpg",
-         
-            "company":"Brooks",
-            "name": "Adrenaline GTS 22",
-           
-            "price": "$139.95",
-             "Rating": ""
+            "id":2,
+            "image":"https://www.zappos.com/boutiques/2154/nikekids_header.jpg",
+            "title":"Nike Kids"
         },
         {
-            "image_url": "https://m.media-amazon.com/images/I/81vZ3JvEbpS._AC_SR920,736_.jpg",
-           
-            "company":"Brooks",
-            "name": "Glycerin 19",
-           
-            "price": "$149.95",
-             "Rating": ""
+            "id":3,
+            "image":"https://www.zappos.com/boutiques/184/ugg_header_092116.jpg",
+            "title":"UGG"
         },
         {
-            "image_url": "https://m.media-amazon.com/images/I/71Rg9188YzS._AC_SR920,736_.jpg" ,
-           
-            "company":"Brooks",
-            "name": "Adrenaline GTS 21",
-           
-            "price": "$109.95",
-             "Rating":""   
-            },​
+            "id":4,
+            "image":"https://www.zappos.com/boutiques/124/vans_header_031717.jpg",
+            "title":"Vans"
+        },
         {
-            "image_url":"https://m.media-amazon.com/images/I/71tT2ONwp+L._AC_SR920,736_.jpg" ,
-           
-            "company":"Brooks",
-            "name": "Revel 5",
-           
-            "price": "$99.95",
-            "Rating": ""
-             },
+            "id":5,
+            "image":"https://www.zappos.com/boutiques/179/nb_header170922.jpg",
+            "title":"New Balance"
+        },
         {
-            "image_url": "https://m.media-amazon.com/images/I/71sjc7LWCPL._AC_SR920,736_.jpg",
-          
-            "company":"Brooks",
-            "name": "Launch 8",
-            "price": "$89.95",
-            "Rating": ""
-                },
-        {
-            "image_url": "https://m.media-amazon.com/images/I/81fw8JW8UuL._AC_SR920,736_.jpg",
-           
-            "company":"Brooks",
-            "name": "Addiction Walker Suede",
-           
-            "price": "$139.95",
-             "Rating": ""   
-             },
-        {
-            "image_url": "https://m.media-amazon.com/images/I/71LutThRuHS._AC_SR920,736_.jpg",
-            
-            "company":"Brooks",
-            "name": "Trace",
-           
-            "price": "$99.95",
-             "Rating":""
-               },
-        {
-            "image_url": "https://m.media-amazon.com/images/I/81Dcj+d54pS._AC_SR920,736_.jpg",
-          
-            "company":"Brooks",
-            "name": "Cascadia 16",
-           
-            "price": "$129.95",
-             "Rating":""
-             },
-        {
-            "image_url": "https://m.media-amazon.com/images/I/71+LKkp3exL._AC_SR920,736_.jpg",
-           
-            "company":"Brooks",
-            "name": "Addiction GTS 15",
-            "price": "$139.95",​
-             "Rating": ""
-    }]
+            "id":6,
+            "image":"https://www.zappos.com/boutiques/164/Clarks_header030514.jpg",
+            "title":"Clarks"
+        }
+    ]
 }
